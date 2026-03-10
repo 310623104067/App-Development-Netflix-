@@ -1,0 +1,76 @@
+body{
+margin:0;
+background:#141414;
+color:white;
+font-family:Arial;
+}
+
+.logo{
+color:#e50914;
+font-size:32px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px;
+}
+
+.hero{
+height:80vh;
+background:url("https://wallpapercave.com/wp/wp1917154.jpg");
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero button{
+padding:15px 30px;
+background:red;
+color:white;
+border:none;
+font-size:18px;
+}
+
+.row{
+display:flex;
+overflow-x:auto;
+gap:20px;
+padding:20px;
+}
+
+.row img{
+width:200px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.row img:hover{
+transform:scale(1.2);
+}
+
+.loginBox{
+width:300px;
+margin:100px auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.loginBox input{
+padding:10px;
+}
+
+.profiles{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:50px;
+}
+
+.profiles img{
+width:120px;
+cursor:pointer;
+}
